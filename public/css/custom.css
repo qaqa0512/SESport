@@ -1,0 +1,662 @@
+body {
+  color: black !important;
+}
+/****
+  DESIGN HEADER
+            ****/
+.logo {
+  height: 100px !important;
+  width: 140px !important;
+}
+.header {
+  height: 89px !important;
+}
+.font-header {
+  font-size: 19px !important;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+  /* font-family: "Roboto Condensed", sans-serif !important; */
+  letter-spacing: .02em !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+  background-color: rgba(102,102,102,0.85)084 !important;
+  margin: auto !important;
+  padding-left: 0px !important;
+}
+.nav-header {
+  padding: 0px !important; 
+  height: 90px !important; 
+}
+.font-opt {
+  font-weight: 100 !important; 
+}
+.dropdown:hover>.dropdown-menu {
+  display: block !important;
+}
+.dropdown>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+  pointer-events: none !important;
+}
+#navigation-bar a {
+  position: relative !important;
+  transition: all 0.4s ease !important;
+}
+#navigation-bar a:hover {
+  color: rgb(32, 179, 127) !important;
+  transform: scale(1.1) !important;
+}
+#navigation-bar a::before {
+  content: attr(alt) !important;
+  transition: all 0.4s ease-in-out !important;
+  position: absolute !important;
+  right: 50% !important;
+  left: 50% !important;
+  bottom: 0 !important;
+  height: 1.3px !important;
+  background: linear-gradient(to right, #67b26f, #4ca2cd) !important;
+}
+#navigation-bar a:hover::before {
+  right: 0 !important;
+  left: 0 !important;
+}
+.login-header-n {
+  float: right !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  color: rgb(36, 19, 19) !important;
+}
+.login-flag {
+  height: 13px !important;
+  margin-bottom: 5px !important;
+}
+.login-flag:hover {
+  transform: scale(1.1) !important;
+}
+.login-user {
+  float: right !important;
+  font-weight: 500 !important;
+  color: rgb(36, 19, 19) !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+}
+.login-header-text {
+  float: right !important;
+  font-weight: 500 !important;
+  color: rgb(36, 19, 19) !important;
+}
+.login-header-text:hover {
+  text-decoration: none !important;
+  transform: scale(1.07) !important;
+}
+.login-header {
+  top: 20px !important;
+  font-size: 13px !important;
+}
+.search-header {
+  margin: auto !important;
+}
+.cart-header {
+  margin: auto !important;
+}
+#lblCartCount {
+  font-size: 12px !important;
+  background: #ff0000 !important;
+  color: #fff !important;
+  padding: 0 5px !important;
+  vertical-align: top !important;
+  margin-left: -10px !important;
+}
+.badge {
+  padding-left: 9px !important;
+  padding-right: 9px !important;
+  /* -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important; */
+  border-radius: 10px !important;
+}
+/* .label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605 !important;
+} */
+.input-header {
+  margin-right: 0px !important;
+  border-radius: 20px 0px 0px 20px !important;
+}
+.icon-header {
+  border-radius: 0px 20px 20px 0px !important;
+}
+.box-header {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.15) !important;
+  border: 2px solid #ddd !important;
+}
+.carousel-item {    
+  height: 73vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.trans-nav {
+  position: fixed !important;
+  opacity: 0.85 !important;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.25) !important;
+  transform: translateY(0%) !important;
+  /* transform: scale(0.97) !important; */
+  transition: all 1.4s ease-in-out !important;
+}
+.trans-pos {
+  position: relative;
+  transform: translateY(-100%);
+}
+.jumbotron {
+  padding: 20px !important;
+  text-align: center !important;
+  background-color: rgba(102,102,102,0.85)084 !important;
+  margin-bottom: 0px !important;
+}
+.h2-jumbotron {
+  margin-bottom: 0px !important; 
+  font-weight: 700 !important;
+  background: linear-gradient(to right, #67b26f, #4ca2cd);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/****
+  DESIGN FOOTER
+            ****/
+.main-footer {
+  background: #e9e9e9 !important;
+  color: rgba(0, 0, 0, 0.712) !important;
+  padding-top: 15px !important;
+  padding-bottom: 10px !important;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif !important;
+}
+.text-footer {
+  list-style-type: none !important;
+  padding-left: 0 !important
+}
+#text-footer a:hover {
+  color: rgb(32, 179, 127) !important;
+  transform: scale(1.1) !important;
+}
+.cross-hr {
+  color: rgb(32, 179, 127) !important;
+  border: 0.6px solid !important;
+}
+.font-bold {
+  font-weight: 600 !important;
+  color: black !important
+}
+.icon-footer:hover {
+  transform: scale(1.2) !important;
+}
+
+/****
+  MAIN SCREEN
+            ****/
+.main-section-1 {
+  padding: 50px !important;
+  background: linear-gradient(to right, #64b3f4, #c2e59c) !important;
+}
+.main-section-2 {
+  padding: 50px !important;
+  background: linear-gradient(to left, #ee9ca7,#ffdde1) !important;
+}
+.main-section-3 {
+  padding: 50px !important;
+  background: linear-gradient(to left, #c6ffdd, #fbd786, #f7797d) !important;
+}
+.main-section-4 {
+  padding: 30px !important;
+  color: #000 !important;
+  background-color: #ede734 !important;
+}
+.icon-mainscreen4 {
+  color: black !important;
+  border: 1px solid black !important;
+}
+.icon-mainscreen4:hover {
+  background-color: #000 !important;
+  color: white !important; 
+}
+.text-section {
+  padding: 0px 120px 0px 120px !important;
+  margin: auto !important;
+  text-align: center !important;
+  font-size: 18px !important; 
+} 
+.img-mainscreen {
+  border: 2px solid rgba(0,0,0,.125) !important;
+  -webkit-filter: grayscale(100%) !important;
+	filter: grayscale(100%) !important;
+	-webkit-transition: .5s ease-in-out !important;
+	transition: .5s ease-in-out !important;
+}
+.img-mainscreen:hover {
+  -webkit-filter: grayscale(0) !important;
+  filter: grayscale(0) !important;
+  -webkit-transform: scale(1.1) !important;
+	transform: scale(1.1) !important;
+}
+.btn-screen1 {
+  background-color: #c2e59c !important;
+  color: black !important;
+  border: 2px solid #64b3f4 !important;
+  animation: jittery 4s infinite !important;
+  font-weight: 600 !important;
+}
+.btn-screen1:hover {
+  -webkit-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+}
+.btn-screen2 {
+  background-color: #ffdde1 !important;
+  color: black !important;
+  border: 2px solid #ee9ca7 !important;
+  animation: jittery 4s infinite !important;
+  font-weight: 600 !important;
+}
+.btn-screen2:hover {
+  -webkit-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+}
+.btn-screen3 {
+  background-color: #c6ffdd !important;
+  color: black !important;
+  border: 2px solid #f7797d !important;
+  animation: jittery 4s infinite !important;
+  font-weight: 600 !important;
+}
+.btn-screen3:hover {
+  -webkit-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;
+}
+@keyframes jittery {
+	5%,
+	50% {
+		transform: scale(1.3);
+	}
+	10% {
+		transform: scale(0.9);
+	}
+	15% {
+		transform: scale(1.15);
+	}
+	20% {
+		transform: scale(1.15) rotate(-5deg);
+	}
+	25% {
+		transform: scale(1.15) rotate(5deg);
+	}
+	30% {
+		transform: scale(1.15) rotate(-3deg);
+	}
+	35% {
+		transform: scale(1.15) rotate(2deg);
+	}
+	40% {
+		transform: scale(1.15) rotate(0);
+	}
+}
+/*Modal Clothes*/
+.opacity-animate3{
+  animation: opt-animation3 1s ;
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards ;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes opt-animation3 {
+0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
+}
+@-moz-keyframes opt-animation3 {
+ 0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
+}
+@-o-keyframes opt-animation3{
+0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
+}
+@keyframes opt-animation3 {
+0%   { opacity: 0; transform: scale(0.75);}
+100% { opacity: 1; transform: scale(1);}
+}
+.modalclothes-img {
+  opacity: 0.6 !important;
+}
+.modalclothes-text {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  padding: 5px !important;
+  color: #dfdfdf !important;
+}
+.modalclothes-button {
+  margin-top: 18px !important;
+  width: 20% !important;
+  font-weight: 600 !important;
+  animation: jittery 6s infinite !important;
+  border: 2px solid #40e0d0 !important; 
+}
+.modalclothes-a {
+  text-decoration: none !important;
+  color: white !important;
+}
+/****
+  CLB CLOTHES
+            ****/
+.img-mainclb {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.img-product:hover{
+  cursor: pointer !important;
+  -webkit-transform: scale(1.05) !important;
+  -ms-transform: scale(1.05) !important;
+  transform: scale(1.05) !important;
+}
+.card-clb:hover {
+  border: 1px solid rgb(201, 194, 194) !important;
+  /* -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+  /* box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5) !important;
+}
+.img-cart {
+  padding-left: 8px !important;
+  top: 209px !important;
+}
+.img-cart:hover {
+  cursor: pointer !important;
+  animation: jittery 3s infinite !important;
+}
+.img-heart {
+  left: 198px !important;
+  height: 55px !important;
+  padding-right: 10px !important;
+  padding-top: 7px !important;
+}
+.img-heart:hover {
+  cursor: pointer !important;
+  animation: jittery 3s infinite !important;
+}
+.pagination-clb {
+  margin: auto !important;
+  margin-bottom: 30px !important;
+}
+.page-item.active .page-link {
+  background-color: rgb(30, 209, 147) !important;
+  border-color: rgb(30, 209, 147) !important;
+}
+.page-item.active {
+  transform: scale(1.3) !important;
+  transition: all 0.5s ease !important;
+}
+
+/*CSS Quốc Anh*/
+.logoclb{
+  width: 1024px;
+  height: 395px;
+  margin: auto;
+}
+.tieude{
+  padding-top: 24px;
+  text-align: center;
+}
+.tieude h3{
+  font-weight: 600 !important;
+  font-size: 27px;
+  text-transform: uppercase;
+  position: relative;
+  top: 15px;
+  background-color: white;
+  padding: 0 20px;
+  display: inline;
+  color: grey;
+}
+.vien{
+  border: 1px solid rgb(230, 222, 222);
+}
+.iconclb{
+  width: 1024px;
+  text-align: center;
+}
+.logo-clb:hover {
+  animation: jittery 4s infinite !important;
+}
+.chualogotren{
+  padding-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 1rem;
+}
+.chualogoduoi{
+  margin-top: 30px;
+  margin-right: auto;;
+  margin-left: auto;
+  letter-spacing: 1rem;
+}
+.aodauclb{
+  width: 1024px;
+  height: 395px;
+  margin: auto;
+}
+.tieudeaodau{
+  padding-top: 24px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.tieudeaodau .aodau{
+  font-weight: 600 !important;
+  font-size: 27px;
+  text-transform: uppercase;
+  position: relative;
+  top: 15px;
+  background-color: white;
+  padding: 0 20px;
+  display: inline;
+  color: grey;
+  /* border: 1px solid rgb(230, 222, 222);  */
+}
+.vienclb{
+  border: 1px solid rgb(230, 222, 222);
+}
+
+.list-product-title{
+  width: 100%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.list-product-subtitle{
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.product-price{
+  position: relative;
+}
+.card-product{
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+  overflow: hidden;
+  border: 0px solid !important;
+}
+.product-title{
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+.del-price{
+  text-decoration: line-through;
+}
+.new-price{
+  color: rgb(216, 70, 70);
+  position: absolute;
+  top:0;
+  right: 0.1rem;
+}
+/****
+    SHOES
+            ****/
+.shoe-button {
+  text-decoration: none !important;
+  color: black !important;
+}
+/**********************/            
+/****
+    LOGIN
+            ****/
+.login {
+  background-image: url('/se-sport/public/img/login-img.jpg');
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 758px !important;
+}
+.logo-login {
+  height: 80px !important;
+  width: 100px !important; 
+}
+@import url('https://fonts.googleapis.com/css?family=Numans');
+.card-login{
+  margin-top: 200px !important;
+  margin-bottom: auto;  
+  width: 400px;
+  background-color: rgba(0,0,0,0.7) !important;
+  border-radius: 10px !important;
+}
+.social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #FFC312;
+}
+.social_icon span:hover{
+  color: white;
+  cursor: pointer;
+}
+.card-header h3{
+  color: white;
+}
+.social_icon{
+  position: absolute;
+  right: 0px;
+  top: -45px;
+}
+.input-group-prepend span{
+  width: 50px;
+  background-color: #FFC312;
+  color: black;
+  border:0 !important;
+}
+input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+}
+.remember{
+  color: white;
+}
+.remember input
+{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.login_btn{
+  color: black;
+  background-color: #FFC312;
+  width: 100px;
+}
+.login_btn:hover{
+  color: black;
+  background-color: white;
+}
+.links{
+  color: white;
+}
+.links a{
+  margin-left: 4px;
+}  
+.login-footer {
+  color: #FFC312 !important;
+}
+.login-footer:hover {
+  transform: scale(1.07) !important;
+}
+.alert-err {
+  color: rgb(238, 9, 35) !important;
+}
+
+/**********************/            
+/****
+    CHECKOUT
+            ****/
+.checkout-size {
+  width: 630px !important; 
+  border: 1.5px solid rgba(0, 0, 0, 0.199) !important;
+  border-radius: 20px !important;
+}
+.header-checkout {
+  font-weight: 600 !important;
+  background-color: #FFF !important;
+  border-color: #FFF !important;
+  font-size: 1.8rem !important;
+  text-align: center !important;
+  padding-top: 25px !important;
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+  background: linear-gradient(to right, #67b26f, #4ca2cd) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+.font-form {
+  font-weight: 500 !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+}
+.input-checkout {
+  border-radius: .60rem !important;
+  border-color: #12e6a6 !important;
+  /* background: rgb(255, 251, 238) !important;   */
+}
+.label-required {
+  color: rgb(201, 0, 0) !important;
+}
+.alert-checkout {
+  font-size: 15px !important;
+  float: right !important;
+  padding-top: 8px !important;
+}
+.checkout-order-size {
+  border: 1.5px solid rgba(0, 0, 0, 0.199) !important;
+  border-radius: 20px !important;
+}
+/* .card-clb-checkout {
+  border: 1px solid rgb(201, 194, 194) !important;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5) !important;
+} */
+.font-checkout {
+  font-size: 19px !important;
+}
+.pa-l {
+  padding-left: 0px !important;
+}
+.btn-number {
+  background: #12e6a6 !important;
+  border-radius: 50% !important;
+}
+.check-button {
+  float: right !important; 
+  background-color: #12e6a6 !important;
+  font-weight: 500 !important;
+  color: #000000 !important;
+  font-size: 21px !important;
+  border: 1px solid #000 !important;
+}
+
+
+
+
+
+
+
